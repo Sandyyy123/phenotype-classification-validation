@@ -1,0 +1,47 @@
+{
+  "n": 420,
+  "n_dev": 252,
+  "n_val": 168,
+  "prevalence_pct": 50.7,
+  "regression": {
+    "slope": 0.969,
+    "slope_ci": [
+      0.919,
+      1.02
+    ],
+    "intercept": 0.48,
+    "r2": 0.775,
+    "pearson_r": 0.88
+  },
+  "diagnostics": {
+    "breusch_pagan_p": 0.041,
+    "shapiro_p": 0.626,
+    "durbin_watson": 1.81,
+    "cooks_influential_n": 17,
+    "cooks_threshold": 0.0095,
+    "max_vif": 2.41
+  },
+  "bland_altman": {
+    "bias": -0.44,
+    "sd_diff": 3.34,
+    "loa_low": -6.98,
+    "loa_high": 6.11,
+    "prop_bias_slope": 0.102,
+    "prop_bias_p": 0.0
+  },
+  "classification": {
+    "auc": 0.934,
+    "auc_ci": [
+      0.897,
+      0.965
+    ],
+    "cal_slope": 1.23,
+    "cal_intercept": -0.07,
+    "hl_stat": 8.18,
+    "hl_p": 0.416,
+    "hl_df": 8,
+    "youden_threshold": 0.44,
+    "sens": 0.929,
+    "spec": 0.783
+  }
+}
